@@ -1,0 +1,39 @@
+:root {
+  --color-dark-blue: #14233c;
+  --color-dark-blue-placeholder: #1a2f4e;
+  --color-blue: #144673;
+  --color-light-blue: #337ab7;
+  --color-lighter-blue: #c3dbff;
+  --color-white: #fff;
+  --color-off-white: #f5f5f5;
+  --color-lighter-grey: #f7f7f7;
+  --color-light-grey: #d3d3d3;
+  --color-grey: #808080;
+  --color-red: #7b315c;
+  --color-green: #317b50;
+
+  --color-category-transport: #00738c;
+  --color-category-groceries: #f69f00;
+  --color-category-eatingOut: #7cd420;
+  --color-category-cash: #00ba4d;
+  --color-category-bills: #02a3da;
+  --color-category-entertainment: #a660ff;
+  --color-category-shopping: #f40083;
+  --color-category-holidays: #ff794c;
+  --color-category-family: #0040c6;
+  --color-category-personalCare: #f00a0a;
+  --color-category-holidays: #ff794c;
+  --color-category-general: #707070;
+  --color-category-expenses: #952b01;
+
+  --mobile-breakpoint: 800px;
+  --body-width: 58rem;
+  --global-gutter: 1rem;
+  --container: {
+    max-width: var(--body-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--global-gutter);
+    padding-right: var(--global-gutter);
+  }
+}
